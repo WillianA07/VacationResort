@@ -1,0 +1,73 @@
+h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+.hotelRoom {
+    width: 100%;
+    height: 100%;
+}
+#bookNowButton {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+}
+
+#backgroundForFooter {
+    background-color: lightgrey;
+}
+
+h1.display-4 {
+    display: flex;
+    justify-content: center;
+}
+
+#backgroundColorForForm {
+    background-color: rgba(43, 77, 132, 0.542);
+}
+
+#discountLabelCenter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#estimateCostButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+#calculationsToHide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+#originalRoomCost {
+    border: none;
+    background-color: rgba(43, 77, 132, 0);
+}
+
+#discountAmount {
+    border: none;
+    background-color: rgba(43, 77, 132, 0);
+}
+
+#roomCostAfterDiscount {
+    border: none;
+    background-color: rgba(43, 77, 132, 0);
+}
+
+#tax {
+    border: none;
+    background-color: rgba(43, 77, 132, 0);
+}
+
+#total {
+    border: none;
+    background-color: rgba(43, 77, 132, 0);
+}

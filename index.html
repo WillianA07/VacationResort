@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Vacation Resort</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Trip Planner</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="overnightstay.html">Book a Room</a>
+                        </li>
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="dining.html">Dine</a>
+                        </li>
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="rentacar.html">Rent a Car</a>
+                        </li>
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="True">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselexampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/picture1.jpg" class="d-block w-100 h-50" alt="HotelOutsideView">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/picture2.jpg" class="d-block w-100 h-50" alt="AnotherOusideView">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/picture3.jpg" class="d-block w-100 h-25" alt="insideView">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+
+        <!--Text about Resort-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="overnightstay.html"><h3>Book a Room</h3></a>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-lg-4 m-50">
+                    <img src="images/picture3.jpg" alt="Hotel Room" class="hotelRoom">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere lorem ipsum dolor sit amet consectetur. Turpis massa sed elementum tempus. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Tempor orci dapibus ultrices in. Condimentum lacinia quis vel eros donec ac odio tempor. Nunc mattis enim ut tellus. Cras adipiscing enim eu turpis egestas pretium aenean. Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Odio ut enim blandit volutpat maecenas. In tellus integer feugiat scelerisque varius morbi enim nunc. Odio morbi quis commodo odio aenean sed adipiscing. Potenti nullam ac tortor vitae purus. Tellus mauris a diam maecenas sed enim ut.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="overnightstay.html"><button id="bookNowButton" type="button" class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid" id="backgroundForFooter">
+            <div class="container">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-muted">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-muted">Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-muted">FAQs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-muted">About</a>
+                        </li>
+                    </ul>
+            
+                    <p class="text-center text-muted">© 2022 Trip Planner, Inc</p>
+                </footer>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
